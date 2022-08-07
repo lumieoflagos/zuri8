@@ -1,0 +1,277 @@
+@font-face {
+    font-family: Averta;
+    src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Averta, sans-serif;
+}
+
+.container-fluid {
+    max-width: 1440px !important;
+}
+
+.my-container {
+    max-width: 1240px !important;
+}
+
+.sect1 {
+    height: 800px;
+    background-image: url("img/hero-bg.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.zuri-logo {
+    margin: auto;
+    display: flex;
+    padding-top: 69px;
+    margin-bottom: 69px;
+}
+
+.logo-img {
+    margin: auto;
+}
+
+.learn {
+    text-align: center;
+    padding: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.learn h2 {
+    font-size: 33px;
+    line-height: 47px;
+    text-align: center;
+    font-weight: 800;
+    color: #514949;
+    margin-bottom: 36px;
+}
+
+.learn p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+a {
+    text-decoration: none;
+    color: #E7332B;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #eb5850;
+}
+
+.btn-main {
+    margin-top: 92px;
+}
+
+.btn1 {
+    padding: 11px 28px;
+    border: 1px solid #E7332B;
+}
+
+.btn-red {
+    background-color: #E7332B;
+    color: #fff;
+    margin-right: 25px;
+}
+
+.btn-red:hover {
+    background-color: #fff;
+    color: #E7332B;
+}
+
+.btn-red-outline {
+    background-color: #fff;
+    color: #E7332B;
+}
+
+.btn-red-outline:hover {
+    background-color: #E7332B;
+    color: #fff;
+}
+
+.sect2 {
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.sect2-content {
+    padding-top: 0 !important;
+}
+
+.sect2-content .heading {
+    font-size: 14px;
+    line-height: 24px;
+    color: #E7332B;
+    margin-top: 141px;
+}
+
+.sect2-content p.provision {
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #514949;
+    margin-top: 8px;
+    margin-bottom: 64px;
+
+}
+
+.container-fluid {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.program-card {
+    width: 100%;
+    background-color: #FFFAFA;
+    padding: 61px 43px 82px 36px;
+    text-align: justify-all;
+}
+
+.program-card-bg {
+    position: relative;
+    z-index: 1;
+}
+
+.card-bg-left {
+    width: 100%;
+    position: absolute;
+    left: -120px;
+    top: -75px;
+    z-index: -1;
+}
+
+.card-bg-right {
+    width: 90%;
+    position: absolute;
+    right: -120px;
+    top: -75px;
+    z-index: -1;
+}
+
+.program-card img {
+    margin-bottom: 45px;
+}
+
+.program-card p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.program-card h3 a {
+    font-size: 16px;
+    line-height: 24px;
+    color: #E7332B;
+    opacity: 0.9;
+}
+
+.footer {
+    margin-top: 215px;
+}
+
+.footer-flexbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+    padding: 20px;
+}
+
+.footer h3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #514949;
+}
+
+.flexrow-3 p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.social-icons img {
+    width: 18px !important;
+    margin-right: 5px;
+}
+
+
+footer hr {
+    opacity: 0.2;
+    border: 0.7px solid #514949;
+}
+
+.copyright p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-top: 32px;
+    color: #514949;
+    padding-bottom: 97px;
+}
+
+@media (max-width: 768px) {
+
+    .sect1 {
+        height: auto;
+    }
+
+    .logo-img {
+        display: block;
+        padding-top: 50px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .learn h2 {
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .btn-main {
+        margin-bottom: 50px;
+    }
+
+
+    .btn1 {
+        display: block;
+        margin: auto;
+        justify-content: center;
+    }
+
+    h3.heading {
+        margin-top: 60px !important;
+    }
+
+    .footer-flexbox {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-logo {
+        width: 150px;
+        margin-bottom: 15px;
+    }
+
+    .footer-flexbox h3 {
+        font-size: 24px;
+        margin-top: 20px;
+
+    }
+
+
+}
+Footer
